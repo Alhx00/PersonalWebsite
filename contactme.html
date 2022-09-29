@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ce088d0a40.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar section-->
+    <nav class="navbar">
+    <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fa-solid fa-moon"></i> AH</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            
+               <a href="/index.html" class="navbar__links">
+                 Home
+               </a> 
+            
+            
+                <a href="/AboutMe.html" class="navbar__links">
+                 About me
+                </a> 
+             
+           
+                <a href="/Projects.html" class="navbar__links">
+                 Projects
+                </a> 
+            
+          
+                <a href="/contactme.html" class="navbar__links">
+                 Contact Me
+                </a> 
+             
+                <div class="navbar__btn">
+                    <a href="/" class="button">
+                     Download CV
+                    </a> 
+                </div>
+            
+        </ul>
+    </div>
+    </nav>
+    <!-- contact me section-->
+    <div class="main"></div>
+        <section class="contact section">
+            <div class="container">
+            
+                </div>
+              <h3 class="contact-title">  Do You Have Any Questions?</h3>
+            <div class="row">
+                
+                <div class="contactinfo">
+                    <div class="icon"><i class="fa fa-phone"></i></div>
+                    <h3>Call Us On</h3>
+                    <p>3474819205</p>
+                </div>
+                <div class="contactinfo">
+                    <div class="icon"><i class="fa fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>a.l.hector101@gmail.com</p>
+                </div>
+                <div class="contactinfo">
+                    <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                    <h3>Linkdin</h3>
+                    <button class="Linkdin"><a href="https://www.linkedin.com/in/allisonlhector/">linkedin </a></button>
+                </div>
+
+                <div class="contactinfo">
+                    <div class="icon"><i class="fa fa-location"></i></div>
+                    <h3>Location</h3>
+                    <p>New York,USA</p>
+                </div>
+                <h3 class="the-title"> SEND ME AN EMAIL:</h3>
+
+            </div>
+               
+            </div>
+         </section>
+
+     <!-- contact section-->
+    <section><div class="con__container">
+<form
+  action="https://formspree.io/f/mnqrjldd"
+  method="POST" id="my-form"
+>
+<div class="form-group">
+    <label for="firstname">First Name</label> 
+    <input type="text" id="firstName" name="firstName">
+ </div>
+
+ <div class="form-group">
+    <label for="lastName">Last Name</label>
+    <input type="text" id="lastName" name="lastName">
+ </div>
+
+ <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+ </div>
+
+ <div class="form-group">
+    <label for="message">Message</label>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+ </div>
+
+  <button type="submit">submit</button>
+</form>
+     </div>
+     <div id="status" ></div>
+    </section>
+    <script src = "app.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
